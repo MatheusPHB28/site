@@ -1,28 +1,41 @@
 body{ 
-    background-color: rgb(6, 36, 2);
+    background-color: rgb(135, 177, 128);
     font-family: Calibri;
     font-size: 18px;
     color: black;
 }
 
-header{
+.manta {
     background-color: #141313;
+    padding: 30px;
 }
 
-header a {
+.manta a {
     color: aqua;
     text-decoration: none;
+    
+   
 }
 
 article a {
     color: rgb(192, 13, 13);
     background-color: black;
     text-decoration: none;
+    padding: 10px;
     
 }
+article{
+    background-color: azure;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+main {
+    padding: 30px;
+}
 
-footer {
+.rodape {
  background-color: chocolate;
  color: aliceblue;
+ padding: 30px;
  
 }
