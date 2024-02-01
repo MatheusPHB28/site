@@ -23,6 +23,11 @@ body{
     text-decoration: none;
     padding: 10px;
     display: inline-block;
+    border-radius: 10px;
+
+}
+.botao:hover {
+    background-color: #8d8787;
 }
 .materia{
     background-color: azure;
@@ -51,6 +56,12 @@ body{
 
 main {
     padding: 30px;
+}
+.grade{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(600px,1fr));
+    gap: 20px;
+
 }
 
 .rodape {
