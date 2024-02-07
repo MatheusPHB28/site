@@ -13,14 +13,28 @@ body{
 .topo {
     background-color: #141313;
     padding: 30px;
+    font-size: 14px;
+    display: block;
 }
-
+.topo img{
+    width:100px;
+    height:100px;
+    display: inline-flex;
+}
 .topo a {
     color: aqua;
     text-decoration: none;
+    font-size: 16px;
     
    
 }
+.topo li{
+    padding: 20px;
+    color: black;
+    padding-left: 3px;
+    
+}
+
 
 .botao {
     color: rgb(192, 13, 13);
@@ -38,7 +52,7 @@ body{
     background-color: azure;
     padding: 30px;
     margin-bottom: 30px;
-    width: 450px;
+    width: 320px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -64,7 +78,7 @@ main {
 }
 .grade{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(600px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
     gap: 20px;
 
 }
@@ -79,12 +93,10 @@ main {
 .menu {
     display: flex;
     list-style: none;
-    margin-left: auto;
+    margin-right: auto;
 }
 
-li {
-    margin-right: 20px;
-}
+
 .menu a :hover {
     color: black;
 
@@ -128,7 +140,7 @@ textarea.campo {
 .contato {
     background-color: aliceblue;
     padding: 30px;
-    width: 600px;
+   max-width: 600px; 
     margin-left: auto;
     margin-right: auto;
 
