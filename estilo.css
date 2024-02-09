@@ -93,7 +93,7 @@ main {
 .menu {
     display: flex;
     list-style: none;
-    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -148,5 +148,15 @@ textarea.campo {
 }
 .mapa {
     width: 100%;
+
+}
+@media(min-width:420px) {
+    .topo a {
+        font-size: 18px;
+    }
+    .materia h1{
+        font-size: 30px;
+    }
+
 
 }
